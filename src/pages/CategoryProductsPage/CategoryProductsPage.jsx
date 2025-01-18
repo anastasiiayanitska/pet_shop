@@ -6,7 +6,7 @@ import { fetchData } from "../../utils/axiosFunc";
 import { API_URL } from "../../utils/utils";
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 import { useProductFilter } from "../../utils/useProductFilter";
-import FilterNav from "../../components/filterNav/filterNav";
+import FilterNav from "../../components/FilterNav/FilterNav";
 import notFound from "../../images/ProductNotFound.png";
 
 const CategoryProductsPage = () => {
