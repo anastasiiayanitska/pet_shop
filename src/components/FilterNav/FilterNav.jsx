@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import { useSearchParams } from "react-router-dom";
-import style from "./FilterNav.module.css";
+import style from "./filterNav.module.css";
 
 const FilterNav = ({ showDiscountFilter = true, showSortFilter = true }) => {
   const [searchParams, setSearchParams] = useSearchParams();
